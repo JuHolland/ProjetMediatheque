@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Element.h" />
+    <ClInclude Include="Mediatheque.h" />
     <ClInclude Include="Membre.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
@@ -165,6 +166,7 @@
     </ClCompile>
     <ClCompile Include="Membre.cpp" />
     <ClCompile Include="Element.cpp" />
+    <ClCompile Include="Mediatheque.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
